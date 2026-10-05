@@ -22,25 +22,25 @@
 #
 # For more definitions, see the files in C:\Program Files\WinCompose\res.
 
-#<Multi_key> <h> <w> : "Hello, world!"
-
+# Sequences I use in path names as substitutes for ASCII characters forbidden by filesystems
+# which are not defined in the upstream list. The various Smart Quotes, for example,
+# are already defined: https://smartquotesforsmartpeople.com/
+#
+# Forbidden on Lunix:
+# ‑ / (forward slash)
+#
+# Forbidden on Windows:
+# ‑ < (less than)
+# ‑ > (greater than)
+# ‑ : (colon — TFS Alternate Data Stream designator)
+# ‑ " (double quote)
+# ‑ / (forward slash)
+# ‑ \ (backslash)
+# ‑ | (vertical bar or pipe)
+# ‑ ? (question mark)
+# ‑ * (asterisk)
 <Multi_key> <slash> <slash> : "／" # U+FF0F Fullwidth Solidus
 <Multi_key> <colon> <colon> <colon> : "：" # U+FF1A Fullwidth Colon
 
+# Sequences for Unicode representations of common writing conventions.
 <Multi_key> <n> <o> : "№" # U+2116 Numero Sign
-
-# Konami code
-# <Multi_key> <Multi_key> <Up> <Up> <Down> <Down> <Left> <Right> <Left> <Right> <b> <a> : "ᕙ༼ຈل͜ຈ༽ᕗ" # Mighty Donger
-
-# Russian Ruble sign
-# <Multi_key> <P> <minus> : "₽"    U20bd # RUBLE SIGN
-# <Multi_key> <p> <minus> : "₽"    U20bd # RUBLE SIGN
-
-# Minus sign
-# <Multi_key> <minus> <minus> <equal> : "−"    U2212 # MINUS SIGN
-
-# Various tests
-# <Multi_key> <t> <f> : "(ﾉಥ益ಥ）ﾉ彡┻━┻"  # Table flip like a boss
-# <Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)"        # Lenny face
-# <Multi_key> <s> <f> : "¯\\_(ツ)_/¯"     # Shrug face
-
