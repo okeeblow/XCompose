@@ -41,6 +41,7 @@
 # ‑ * (asterisk)
 <Multi_key> <slash> <slash> : "／" # U+FF0F Fullwidth Solidus
 <Multi_key> <colon> <colon> <colon> : "：" # U+FF1A Fullwidth Colon
+<Multi_key> <question> <question> <question> : "？"
 
 # Sequences for Unicode representations of common writing conventions.
 <Multi_key> <n> <o> : "№" # U+2116 Numero Sign
