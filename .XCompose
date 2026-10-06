@@ -29,10 +29,13 @@
 # Forbidden on Lunix:
 # ‑ / (forward slash)
 #
+# Forbidden on Mac:
+# ‑ : (colon — oldskool HFS path separator)
+#
 # Forbidden on Windows:
 # ‑ < (less than)
 # ‑ > (greater than)
-# ‑ : (colon — TFS Alternate Data Stream designator)
+# ‑ : (colon — NTFS Alternate Data Stream designator)
 # ‑ " (double quote)
 # ‑ / (forward slash)
 # ‑ \ (backslash)
